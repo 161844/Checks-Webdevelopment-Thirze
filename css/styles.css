@@ -52,6 +52,8 @@ a:link{
     font-weight: bolder;
     text-decoration: underline;
     text-indent: 1px;
+	margin-left: 40px;
+	Margin-top: 15px;
 }
 
 p{
@@ -61,12 +63,50 @@ p{
   font-family:"Catamaran", sans-serif;
 }
 
-div{margin-left: auto;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-right: auto}
+div{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    background-repeat: repeat;
+}
 footer{
 	color: salmon;
 	background-color: white;
 	text-align: center
+}
+body {
+    background-image: url(../../../my_website_thirzerust/images/seamlesscatbackground.jpg);
+}
+
+.col-6{
+    color: #FFFFFF;
+    background-color: #FA8072;
+    padding: inherit;
+    margin: auto;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.loremipsum-class{
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 50PX;
+	margin-bottom: 50px
+}
+
+.form-group{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.btn-primary{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+.getintouch-class{
+	background-color: darkcyan
 }
