@@ -1,20 +1,8 @@
 @charset "UTF-8";
-table {
-  border-collapse: collapse;
+*{
+	margin:0;
+	padding:0;
 }
-
-caption {
-  padding-top: table-cell-padding;
-  padding-bottom: table-cell-padding;
-  color: text-muted;
-  text-align: left;
-  caption-side: bottom;
-}
-
-th {
-  text-align: inherit;
-}
-
 .article1-class {
     color: white;
     border: 1px salmon;
@@ -75,21 +63,39 @@ footer{
 	background-color: white;
 	text-align: center
 }
-body {
-    background-image: url(../../../my_website_thirzerust/images/seamlesscatbackground.jpg);
+.bodybackground-class {
+    background-image: url(file:///Macintosh%20HD/Users/thirzerust/Desktop/my_website_thirzerust/images/seamlesscatbackground.jpg);
 }
 
-.col-6{
+.col-sm-6{
     color: #FFFFFF;
     background-color: #FA8072;
     padding: inherit;
     margin: auto;
-    display: inline-block;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
+    display: none;
+    moz-box-sizing: content-box;
     box-sizing: content-box;
 }
-
+.col-md-6{ 
+	color: #FFFFFF;
+    background-color: #FA8072;
+    padding: inherit;
+    margin: auto;
+    display: inline-block;
+    webkit-box-sizing: content-box;
+    moz-box-sizing: content-box;
+    box-sizing: content-box;	
+}
+.col-lg-4{
+	color: #FFFFFF;
+    background-color: #FA8072;
+    padding: inherit;
+    margin: auto;
+    display: inline-block;
+    webkit-box-sizing: content-box;
+    moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
 .loremipsum-class{
 	margin-left: 150px;
 	margin-right: 150px;
@@ -108,5 +114,5 @@ body {
 	margin-bottom: 50px;
 }
 .getintouch-class{
-	background-color: darkcyan
+	background-color: 
 }
